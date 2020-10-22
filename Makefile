@@ -1,6 +1,6 @@
 # Makefile to build PDF and Markdown cv from YAML.
 #
-# Brandon Amos <http://bamos.github.io> and
+# Maria Oikonomou <http://bamos.github.io> and
 # Ellis Michael <http://ellismichael.com>
 
 WEBSITE_DIR=$(HOME)/repos/website
