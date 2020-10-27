@@ -7,26 +7,22 @@ src: https://github.com/m-oikonomou/cv
 url: "m-oikonomou.github.io"
 social:
   github: m-oikonomou
-  linkedin: moikonomou
 # Erdős  number is at most 4.
 # (Brandon Amos -> Layne Watson -> Leroy Kelly -> Zoltán Füredi -> Paul Erdős )
 
 # LaTeX formatting.
-style: banking # casual, classic, oldstyle, or banking
+style: casual # casual, classic, oldstyle, or banking
 color: purple # blue, orange, green, red, purple, grey and black
 color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
 
 # (tag, section type, title)
 order:
-  - [Summary, Summary]
-  # - [news, News]
+  - [summary, Summary]
   - [education, Education]
   - [experience, Work Experience]
-  # - [research, Research Experience]
   - [skills, Skills]
-  # - [NEWPAGE, NEWPAGE]
 
-Summary: '
+summary: '
   Having graduated with an <b>Automation Engineer</b> degree, I aspire to expand my 
   knowledge in the IT field by keeping up with relevant seminars and training 
   courses. I consider teamwork to be a source of inspiration, while managing 
@@ -62,25 +58,6 @@ experience:
     location: London, UK
     title: Research Intern
     dates: May 2017 -- Oct 2017
-  - place: Adobe Research
-    location: San Jose, California
-    title: Data Scientist Intern
-    dates: May 2014 -- Aug 2014
-    area: Distributed Systems
-    details:
-      - I built a web analytics processing engine using {\bf Scala},
-        {\bf Spark}, {\bf Spray}, {\bf Parquet}, and {\bf HDFS}.
-  - place: Snowplow Analytics
-    location: London, United Kingdom (Remote)
-    title: Software Engineer Intern
-    dates: Dec 2013 -- Jan 2014
-    details:
-    - Open-source {\bf Scala} development with a startup on the
-      Snowplow analytics platform.
-      My commits are online at
-      \url{https://github.com/snowplow/snowplow/commits?author=bamos}.
-    - Developed a new server using {\bf Spray} and {\bf Actors} to store
-      {\bf Thrift} events on {\bf Amazon Kinesis}.
 
 skills:
   - title: Languages
