@@ -3,7 +3,7 @@ name:
   last: Oikonomou
 
 pdf: /data/cv.pdf
-src: https://github.com/m-oikonomou/cv
+src: https://github.com/m-oikonomou/m-oikonomou.github.io
 url: "m-oikonomou.github.io"
 social:
   github: m-oikonomou
@@ -11,8 +11,8 @@ social:
 # (Brandon Amos -> Layne Watson -> Leroy Kelly -> Zoltán Füredi -> Paul Erdős )
 
 # LaTeX formatting.
-style: casual # casual, classic, oldstyle, or banking
-color: purple # blue, orange, green, red, purple, grey and black
+style: banking # casual, classic, oldstyle, or banking
+color: blue # blue, orange, green, red, purple, grey and black
 color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
 
 # (tag, section type, title)
