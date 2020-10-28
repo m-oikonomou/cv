@@ -12,17 +12,17 @@ social:
 
 # LaTeX formatting.
 style: banking # casual, classic, oldstyle, or banking
-color: blue # blue, orange, green, red, purple, grey and black
+color: purple # blue, orange, green, red, purple, grey and black
 color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
 
 # (tag, section type, title)
 order:
-  - [summary, Summary]
+  - [about, About]
   - [education, Education]
-  - [experience, Work Experience]
+  - [industry, Work Experience]
   - [skills, Skills]
 
-summary: '
+about: '
   Having graduated with an <b>Automation Engineer</b> degree, I aspire to expand my 
   knowledge in the IT field by keeping up with relevant seminars and training 
   courses. I consider teamwork to be a source of inspiration, while managing 
@@ -31,39 +31,32 @@ summary: '
   and persue hiking on Mount Everest.
   <br><br>'
 
-service:
-  - title: Reviewer
-    details: ICML 2018, NeurIPS 2018, NeurIPS Deep RL Workshop 2018, ICLR 2019 (outstanding reviewer), ICML 2019, ICCV 2019
-  - title: Admissions
-    details: CMU CSD MS 2014-2015
-
-selected_repos:
-  https://github.com/locuslab/icnn
-  https://locuslab.github.io/qpth/
-  https://github.com/locuslab/qpth
-  https://github.com/locuslab/mpc.pytorch
-  https://github.com/bamos/densenet.pytorch
-  https://github.com/bamos/dcgan-completion.tensorflow
-  https://github.com/bamos/block
-  https://github.com/bamos/setGPU
-
 education:
+  - school: Hellenic Open University 
+    location: Patras, Greece
+    degree: MSc, Engineering of Pervasive Computing Systems
+    dates: 1/10/2019 – Present
   - school: Alexander Technological Educational Institute of Thessaloniki
     location: Thessaloniki, Greece
     degree: BEng, Automation Engineer
     dates: 1/10/2012 – 24/4/2017
 
-experience:
-  - place: Google DeepMind
-    location: London, UK
-    title: Research Intern
-    dates: May 2017 -- Oct 2017
+industry:
+  - place: Kleemann Hellas S.A
+    location: Kilkis, Greece
+    title: ERP Software Engineer
+    dates: 13/4/2020 – Present
+  - place: Aghios Panteleimon – Chronic disease treatment clinic of Kilkis
+    location: Kilkis, Greece
+    title: IT Helpdesk Engineer
+    dates: 20/2/2019 – 19/2/2020
+  - place: BITLOGIC
+    location: Thessaloniki, Greece
+    title: Automation Engineer
+    dates: 1/10/2016 – 30/4/2017
 
 skills:
-  - title: Languages
-    details: C, C++, Fortran, Haskell, Java,
-      Lua, Make, {\it Mathematica}, Python, R, Scala
-  - title: Frameworks
-    details: NumPy, Pandas, PyTorch, SciPy, TensorFlow, Torch7
-  - title: Systems
-    details: Linux, OSX
+  - title: Programming
+  - title: Web Design
+  - title: Computer Vision
+  - title: Database Management
